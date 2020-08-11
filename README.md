@@ -35,9 +35,9 @@ ICDAR2019-LSVT所有图片的标签存放在一个train_full_labels.json格式�
 ICDAR2019-LSVT所有图片的标签都对应一个json格式文件里，如果需要txt格式的标签，可以在该代码仓库中运行`python3 ic19lsvt_convert_txt.py `。当然如果你可以修改代码第48中的`--chars`和`--lines`来得到字符级标注和基于单词级标注的txt标签。
 
 ## 4.天池比赛2018
-ICDAR2019-LSVT数据标注中的坐标格式是逆时针排列，这和icdar的顺时针标注略有不同，所以如果要统一成icdar格式标注，可以在仓库中运行`python3 modify_coordinates.py `来产生。
-温馨提示：由于天池数据中的图片命名后缀会有.jpg.jpg格式的情况（T1._WBXtXdXXXXXXXX_!!0-item_pic.jpg.jpg），导致可能在对图片路径或者是切分路径操作过程中会产生bug，所以建议先给该数据集修改名字，之后在进行使用。
-修改名字的代码可以运行`python3 revise_name.py `
+ICDAR2019-LSVT数据标注中的坐标格式是逆时针排列，这和icdar的顺时针标注略有不同，所以如果要统一成icdar格式标注，可以在仓库中运行`python3 modify_coordinates.py `来产生。  
+温馨提示：由于天池数据中的图片命名后缀会有.jpg.jpg格式的情况（T1._WBXtXdXXXXXXXX_!!0-item_pic.jpg.jpg），导致可能在对图片路径或者是切分路径操作过程中会产生bug，所以建议先给该数据集修改名字，之后在进行使用。  
+修改名字的代码可以运行`python3 revise_name.py `  
 以下链接是我对天池数据做了清洗修改后的链接，可以直接下载使用。[下载链接](https://pan.baidu.com/s/1e3gzOMeWHGS3jmbJlm2PgQ). 提取码：fere
 
 # 数据集介绍
