@@ -23,7 +23,7 @@
 ## 1.ICDAR2019-MLT
 由于在ICDAR2019-MLT数据中存在着人为坐标点标错，这在训练文字检测模型计算文字区域会存在报错，所以本仓库对该数据集进行清洗并且最后到新的数据集。[ICDAR2019-MLT新](https://pan.baidu.com/s/1BR60GC3d-MqBuUm3rBKmwg). 提取码：3y8q   
 ![](./ICDAR2019-MLT/ic19_error.png)  
-温馨提示：:blush::point_right:  
+`温馨提示`：:blush::point_right:  
 一、该数据集还存在着gif格式的图片，如tr_img_01674.gif，所以使用该数据集的时候需要注意读图代码的鲁棒性。
 二、该数据集中还存在一些标签不规范，有的标注最后一个字符会含有','，有的没有，这会导致我们在使用split()函数对标签进行提取坐标信息和文本信息时会出现一定的错误，一定要注意。  
 ![](./ICDAR2019-MLT/ic19_dou_error.png)
@@ -36,7 +36,7 @@ ICDAR2019-LSVT所有图片的标签都对应一个json格式文件里，如果�
 
 ## 4.天池比赛2018
 ICDAR2019-LSVT数据标注中的坐标格式是逆时针排列，这和icdar的顺时针标注略有不同，所以如果要统一成icdar格式标注，可以在仓库中运行`python3 modify_coordinates.py `来产生。  
-温馨提示：:bowtie::point_right:   
+`温馨提示`：:bowtie::point_right:   
 由于天池数据中的图片命名后缀会有.jpg.jpg格式的情况（T1._WBXtXdXXXXXXXX_!!0-item_pic.jpg.jpg），导致可能在对图片路径或者是切分路径操作过程中会产生bug，所以建议先给该数据集修改名字，之后在进行使用。    
 修改名字的代码可以运行`python3 revise_name.py `  
 以下链接是我对天池数据做了清洗修改后的链接，可以直接下载使用。[下载链接](https://pan.baidu.com/s/1e3gzOMeWHGS3jmbJlm2PgQ). 提取码：fere
