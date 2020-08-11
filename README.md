@@ -16,8 +16,8 @@
 | ICDAR2019-ArT| 语言: 混合  train:5603  test:4563  |  json格式标签   |  [下载链接10](https://rrc.cvc.uab.es/?ch=14) |
 | Synth800k| 语言: 英文  80k    |   基于字符标注    |  [下载链接11](http://www.robots.ox.ac.uk/~vgg/data/scenetext/)   |
 | 360万中文数据集| 语言: 中文  360k      |    每张图片由10个字符构成    |   [下载链接12](https://pan.baidu.com/s/1QkI7kjah8SPHwOQ40rS1Pw).  提取码:lu7m |
-| 中文街景数据集CTW|   |   基于字符标注的中文街景图片   |  [下载链接13](https://ctwdataset.github.io/) |
-| 百度中文场景文字识别|  语言: 混合  32,285   |     |  [下载链接14](https://aistudio.baidu.com/aistudio/datasetdetail/8429)  |
+| 中文街景数据集CTW|语言：中文  32285   |   基于字符标注的中文街景图片   |  [下载链接13](https://ctwdataset.github.io/) |
+| 百度中文场景文字识别|  语言: 混合  29万   |     |  [下载链接14](https://aistudio.baidu.com/aistudio/datasetdetail/8429)  |
 
 # 数据集标签的修正与更改
 ## 1.ICDAR2019-MLT
